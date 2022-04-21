@@ -1,0 +1,6 @@
+*.o
+002-signal-slot
+Makefile
+004-my-widget
+005-my-window
+021-mainwin

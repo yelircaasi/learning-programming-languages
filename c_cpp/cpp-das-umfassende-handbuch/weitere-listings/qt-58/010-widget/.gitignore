@@ -1,0 +1,6 @@
+*.o
+001-hello
+Makefile
+010-widget
+moc_meinwidget.cpp
+ui_meinwidget.h

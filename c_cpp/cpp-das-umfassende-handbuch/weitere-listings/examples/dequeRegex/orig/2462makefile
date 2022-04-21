@@ -1,0 +1,11 @@
+OBJ = eg.o regexpr.o
+
+eg: $(OBJ)
+	c++ -fhandle-exceptions -o eg $(OBJ)
+
+.cc.o:
+	c++ -fhandle-exceptions -c $*.cc
+
+eg.o: eg.cc regexpr.h
+
+regexpr.o: regexpr.cc regexpr.h

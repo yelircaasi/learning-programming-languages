@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>611</width>
+    <height>366</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTableWidget" name="tableWidget"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>611</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_Datei">
+    <property name="title">
+     <string>&amp;Datei</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_Bearbeiten">
+    <property name="title">
+     <string>&amp;Bearbeiten</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_Aktionen">
+    <property name="title">
+     <string>&amp;Aktionen</string>
+    </property>
+    <addaction name="action_Neu"/>
+   </widget>
+   <addaction name="menu_Datei"/>
+   <addaction name="menu_Bearbeiten"/>
+   <addaction name="menu_Aktionen"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_Neu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action_Neu">
+   <property name="text">
+    <string>&amp;Neu</string>
+   </property>
+   <property name="statusTip">
+    <string>Eintrag hinzufügen</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

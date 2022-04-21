@@ -1,0 +1,4 @@
+*.o
+002-signal-slot
+Makefile
+003-lambda

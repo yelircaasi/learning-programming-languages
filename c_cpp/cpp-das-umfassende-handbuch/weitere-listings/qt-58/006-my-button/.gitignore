@@ -1,0 +1,5 @@
+*.o
+002-signal-slot
+Makefile
+004-my-widget
+006-my-button

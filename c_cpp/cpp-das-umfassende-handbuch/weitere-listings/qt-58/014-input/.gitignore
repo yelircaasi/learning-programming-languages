@@ -1,0 +1,9 @@
+*.o
+002-signal-slot
+Makefile
+004-my-widget
+006-my-button
+012-dialog
+013-dialog
+moc_*.cpp
+014-input
