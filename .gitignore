@@ -2,3 +2,4 @@
 *.epub
 **/build/*
 **/target/*
+**/main
